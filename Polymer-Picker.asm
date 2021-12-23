@@ -1,0 +1,3 @@
+PUTBASIC "src/POLY1.bas","POLY1"
+PUTBASIC "src/POLY2.bas","POLY2"
+PUTTEXT "src/BOOT.txt", "!BOOT",&FFFF
