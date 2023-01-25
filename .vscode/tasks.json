@@ -14,7 +14,7 @@
         },
     "tasks": [
         {
-            "label": "PolyPick.ssd",
+            "label": "PPBasic.ssd",
             "type": "shell",
             "command": "make",
             "osx": {
@@ -24,16 +24,16 @@
             // your emulator executable.
             // amend the args argument to match that of your emulator settings.
             "windows": {
-                "command": "C:/Code/beebasm/beebasm.exe",
+                "command": "C:/beebasm/beebasm.exe",
                 "args": [
                     "-i",
-                    "Polymer-Picker.asm",
+                    "Polymer-Picker-Basic.asm",
                     "-do",
-                    "PolyPick.ssd",
+                    "PPBasic.ssd",
                     "-opt",
                     "3",
                     "-title",
-                    "Polymer"
+                    "PPBasic"
                 ]
             },
             "group": {
@@ -77,10 +77,10 @@
             // your emulator executable.
             // amend the args argument to match that of your emulator settings.
             "windows": {
-                "command": "C:/Code/b2/B2.exe",
+                "command": "C:/b2/B2.exe",
                 "args": [
                     "-0",
-                    "PolyPick.ssd",
+                    "PPBasic.ssd",
                     "-b"
                 ]
             },

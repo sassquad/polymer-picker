@@ -1,9 +1,10 @@
-# Polymer Picker
+# Polymer Picker (BBC Basic only version)
 An arcade game for the BBC Microcomputer, with an ecological message.
 
 ## About the game
 
-This is a work in progress game, which was started in September 2021. Development has been sporadic. V0.06 is the first version to be published to Github.
+This is the original BBC Basic version of the game. Development on a BBC Basic/assembler version progressed to a formal release in December 2022. I am now trying to get this original version to a formal release, so that anyone interested in retro games programming can browse the two versions, and get some insight into retro games development.
+
 However, previous versions can be downloaded from the [game's dedicated Stardot thread](https://stardot.org.uk/forums/viewtopic.php?f=53&t=23615).
 
 ## How to build from source
@@ -21,9 +22,9 @@ This repo includes the build process employed on my Apple iMac, which not only i
 
 VS Code's Tasks feature is employed to good effect here, by allowing a 'build' and 'test' task, the former runs the shell script `build.sh` which kicks beebasm, containing the following script:
 
-`beebasm -i Polymer-Picker.asm -do PolyPick.ssd -opt 3 -title PPicker`
+`beebasm -i Polymer-Picker-Basic.asm -do PPBasic.ssd -opt 3 -title PPBasic`
 
-The `Polymer-Picker.asm` file consists of the following:
+The `Polymer-Picker-Basic.asm` file consists of the following:
 
 ```
 PUTBASIC "src/POLY1.bas","POLY1"
@@ -54,4 +55,4 @@ This boot content appears on a lot of disc images within the BBC Micro Game Arch
 
 I have not yet performed this build on the Windows platform, so I will be performing some further amends if the `tasks.json` file is not set up correctly.
 
-Thanks for reading. I am really hopeful that this game will get finished in early 2022. In the meantime, I hope you enjoy what you find. All feedback is welcome.
+Thanks for reading. I am really hopeful that this version of the game will get finished in early 2023. In the meantime, I hope you enjoy what you find. All feedback is welcome.

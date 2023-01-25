@@ -1,1 +1,1 @@
-/Applications/b2.app/Contents/MacOS/b2 -b -0 PolyPick.ssd
+/Applications/b2.app/Contents/MacOS/b2 -b -0 PPBasic.ssd

@@ -1,4 +1,5 @@
 .DS_Store
 archives
 testcode
-.DS_Store
+beebasm
+src/basictool
